@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MJExtension (3.0.15.1)
+  - ReactiveObjC (3.1.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - MJExtension
+  - ReactiveObjC
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MJExtension
+    - ReactiveObjC
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 181b8dbb835fd22eb9ab7c1085b73e5c6bab234f
+
+COCOAPODS: 1.5.3

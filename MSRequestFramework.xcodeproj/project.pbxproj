@@ -15,6 +15,16 @@
 		0CE5EEBF21E1E3CA00B7C024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEBE21E1E3CA00B7C024 /* main.m */; };
 		0CE5EEC921E1E3CB00B7C024 /* MSRequestFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEC821E1E3CB00B7C024 /* MSRequestFrameworkTests.m */; };
 		0CE5EED421E1E3CB00B7C024 /* MSRequestFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EED321E1E3CB00B7C024 /* MSRequestFrameworkUITests.m */; };
+		0CE5EEEC21E1E5E700B7C024 /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEE821E1E5E600B7C024 /* AFHTTPSessionManager+RACSupport.m */; };
+		0CE5EEED21E1E5E700B7C024 /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEE921E1E5E600B7C024 /* RACSubscriber+AFProgressCallbacks.m */; };
+		0CE5EEEE21E1E5E700B7C024 /* RACSignal+MSHTTPServiceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEEA21E1E5E600B7C024 /* RACSignal+MSHTTPServiceAdditions.m */; };
+		0CE5EEF121E1EDB500B7C024 /* MSHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEF021E1EDB500B7C024 /* MSHTTPResponse.m */; };
+		0CE5EEF521E1F79B00B7C024 /* MSKeyedSubscript.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEF421E1F79B00B7C024 /* MSKeyedSubscript.m */; };
+		0CE5EEF821E220F400B7C024 /* MSURLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEF721E220F400B7C024 /* MSURLParameters.m */; };
+		0CE5EEFB21E2211000B7C024 /* MSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEFA21E2211000B7C024 /* MSHTTPRequest.m */; };
+		0CE5EEFE21E2324300B7C024 /* MSHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EEFD21E2324300B7C024 /* MSHTTPService.m */; };
+		0CE5EF0121E2363C00B7C024 /* MSHTTPAPIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5EF0021E2363C00B7C024 /* MSHTTPAPIConfig.m */; };
+		D8C1372D75335E0FD6A8052B /* libPods-MSRequestFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4EA7EEF6C7AFC493DBAD98 /* libPods-MSRequestFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,28 @@
 		0CE5EECF21E1E3CB00B7C024 /* MSRequestFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSRequestFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE5EED321E1E3CB00B7C024 /* MSRequestFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSRequestFrameworkUITests.m; sourceTree = "<group>"; };
 		0CE5EED521E1E3CB00B7C024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CE5EEE621E1E5E600B7C024 /* RACSubscriber+AFProgressCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSubscriber+AFProgressCallbacks.h"; sourceTree = "<group>"; };
+		0CE5EEE721E1E5E600B7C024 /* RACSignal+MSHTTPServiceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+MSHTTPServiceAdditions.h"; sourceTree = "<group>"; };
+		0CE5EEE821E1E5E600B7C024 /* AFHTTPSessionManager+RACSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+RACSupport.m"; sourceTree = "<group>"; };
+		0CE5EEE921E1E5E600B7C024 /* RACSubscriber+AFProgressCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSubscriber+AFProgressCallbacks.m"; sourceTree = "<group>"; };
+		0CE5EEEA21E1E5E600B7C024 /* RACSignal+MSHTTPServiceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+MSHTTPServiceAdditions.m"; sourceTree = "<group>"; };
+		0CE5EEEB21E1E5E700B7C024 /* AFHTTPSessionManager+RACSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+RACSupport.h"; sourceTree = "<group>"; };
+		0CE5EEEF21E1EDB500B7C024 /* MSHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSHTTPResponse.h; sourceTree = "<group>"; };
+		0CE5EEF021E1EDB500B7C024 /* MSHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSHTTPResponse.m; sourceTree = "<group>"; };
+		0CE5EEF221E1F0B500B7C024 /* MSHTTPServiceConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MSHTTPServiceConstant.h; path = MSRequestFramework/HTTP/MSHTTPServiceConstant.h; sourceTree = SOURCE_ROOT; };
+		0CE5EEF321E1F79B00B7C024 /* MSKeyedSubscript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSKeyedSubscript.h; sourceTree = "<group>"; };
+		0CE5EEF421E1F79B00B7C024 /* MSKeyedSubscript.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSKeyedSubscript.m; sourceTree = "<group>"; };
+		0CE5EEF621E220F400B7C024 /* MSURLParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSURLParameters.h; sourceTree = "<group>"; };
+		0CE5EEF721E220F400B7C024 /* MSURLParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSURLParameters.m; sourceTree = "<group>"; };
+		0CE5EEF921E2211000B7C024 /* MSHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSHTTPRequest.h; sourceTree = "<group>"; };
+		0CE5EEFA21E2211000B7C024 /* MSHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSHTTPRequest.m; sourceTree = "<group>"; };
+		0CE5EEFC21E2324300B7C024 /* MSHTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSHTTPService.h; sourceTree = "<group>"; };
+		0CE5EEFD21E2324300B7C024 /* MSHTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSHTTPService.m; sourceTree = "<group>"; };
+		0CE5EEFF21E2363C00B7C024 /* MSHTTPAPIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSHTTPAPIConfig.h; sourceTree = "<group>"; };
+		0CE5EF0021E2363C00B7C024 /* MSHTTPAPIConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSHTTPAPIConfig.m; sourceTree = "<group>"; };
+		6973980A56F9F170BF53E3A3 /* Pods-MSRequestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRequestFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSRequestFramework/Pods-MSRequestFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4EA7EEF6C7AFC493DBAD98 /* libPods-MSRequestFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSRequestFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3405D49A11D56754A1C50C /* Pods-MSRequestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRequestFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSRequestFramework/Pods-MSRequestFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C1372D75335E0FD6A8052B /* libPods-MSRequestFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +118,8 @@
 				0CE5EEC721E1E3CB00B7C024 /* MSRequestFrameworkTests */,
 				0CE5EED221E1E3CB00B7C024 /* MSRequestFrameworkUITests */,
 				0CE5EEAD21E1E3C800B7C024 /* Products */,
+				4DB70C4672E83B1D2088BB56 /* Pods */,
+				AB3B502797778B342275C07F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +140,7 @@
 				0CE5EEB021E1E3C800B7C024 /* AppDelegate.m */,
 				0CE5EEB221E1E3C800B7C024 /* ViewController.h */,
 				0CE5EEB321E1E3C800B7C024 /* ViewController.m */,
+				0CE5EEE121E1E57300B7C024 /* HTTP */,
 				0CE5EEB521E1E3C800B7C024 /* Main.storyboard */,
 				0CE5EEB821E1E3CA00B7C024 /* Assets.xcassets */,
 				0CE5EEBA21E1E3CA00B7C024 /* LaunchScreen.storyboard */,
@@ -132,6 +168,81 @@
 			path = MSRequestFrameworkUITests;
 			sourceTree = "<group>";
 		};
+		0CE5EEE121E1E57300B7C024 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5EEE521E1E5B700B7C024 /* Constant */,
+				0CE5EEE221E1E57F00B7C024 /* Request */,
+				0CE5EEE321E1E58600B7C024 /* Response */,
+				0CE5EEE421E1E59800B7C024 /* Extension */,
+				0CE5EEFC21E2324300B7C024 /* MSHTTPService.h */,
+				0CE5EEFD21E2324300B7C024 /* MSHTTPService.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		0CE5EEE221E1E57F00B7C024 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5EEF321E1F79B00B7C024 /* MSKeyedSubscript.h */,
+				0CE5EEF421E1F79B00B7C024 /* MSKeyedSubscript.m */,
+				0CE5EEF621E220F400B7C024 /* MSURLParameters.h */,
+				0CE5EEF721E220F400B7C024 /* MSURLParameters.m */,
+				0CE5EEF921E2211000B7C024 /* MSHTTPRequest.h */,
+				0CE5EEFA21E2211000B7C024 /* MSHTTPRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		0CE5EEE321E1E58600B7C024 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5EEEF21E1EDB500B7C024 /* MSHTTPResponse.h */,
+				0CE5EEF021E1EDB500B7C024 /* MSHTTPResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0CE5EEE421E1E59800B7C024 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5EEEB21E1E5E700B7C024 /* AFHTTPSessionManager+RACSupport.h */,
+				0CE5EEE821E1E5E600B7C024 /* AFHTTPSessionManager+RACSupport.m */,
+				0CE5EEE721E1E5E600B7C024 /* RACSignal+MSHTTPServiceAdditions.h */,
+				0CE5EEEA21E1E5E600B7C024 /* RACSignal+MSHTTPServiceAdditions.m */,
+				0CE5EEE621E1E5E600B7C024 /* RACSubscriber+AFProgressCallbacks.h */,
+				0CE5EEE921E1E5E600B7C024 /* RACSubscriber+AFProgressCallbacks.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0CE5EEE521E1E5B700B7C024 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5EEF221E1F0B500B7C024 /* MSHTTPServiceConstant.h */,
+				0CE5EEFF21E2363C00B7C024 /* MSHTTPAPIConfig.h */,
+				0CE5EF0021E2363C00B7C024 /* MSHTTPAPIConfig.m */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		4DB70C4672E83B1D2088BB56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6973980A56F9F170BF53E3A3 /* Pods-MSRequestFramework.debug.xcconfig */,
+				EE3405D49A11D56754A1C50C /* Pods-MSRequestFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB3B502797778B342275C07F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A4EA7EEF6C7AFC493DBAD98 /* libPods-MSRequestFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CE5EED821E1E3CB00B7C024 /* Build configuration list for PBXNativeTarget "MSRequestFramework" */;
 			buildPhases = (
+				BA147C8BF5E046A6A0AA7CE7 /* [CP] Check Pods Manifest.lock */,
 				0CE5EEA821E1E3C800B7C024 /* Sources */,
 				0CE5EEA921E1E3C800B7C024 /* Frameworks */,
 				0CE5EEAA21E1E3C800B7C024 /* Resources */,
@@ -257,14 +369,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BA147C8BF5E046A6A0AA7CE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSRequestFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CE5EEA821E1E3C800B7C024 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE5EEED21E1E5E700B7C024 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				0CE5EEEC21E1E5E700B7C024 /* AFHTTPSessionManager+RACSupport.m in Sources */,
+				0CE5EEF121E1EDB500B7C024 /* MSHTTPResponse.m in Sources */,
 				0CE5EEB421E1E3C800B7C024 /* ViewController.m in Sources */,
 				0CE5EEBF21E1E3CA00B7C024 /* main.m in Sources */,
 				0CE5EEB121E1E3C800B7C024 /* AppDelegate.m in Sources */,
+				0CE5EEF521E1F79B00B7C024 /* MSKeyedSubscript.m in Sources */,
+				0CE5EEFE21E2324300B7C024 /* MSHTTPService.m in Sources */,
+				0CE5EF0121E2363C00B7C024 /* MSHTTPAPIConfig.m in Sources */,
+				0CE5EEEE21E1E5E700B7C024 /* RACSignal+MSHTTPServiceAdditions.m in Sources */,
+				0CE5EEF821E220F400B7C024 /* MSURLParameters.m in Sources */,
+				0CE5EEFB21E2211000B7C024 /* MSHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +575,7 @@
 		};
 		0CE5EED921E1E3CB00B7C024 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6973980A56F9F170BF53E3A3 /* Pods-MSRequestFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +593,7 @@
 		};
 		0CE5EEDA21E1E3CB00B7C024 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3405D49A11D56754A1C50C /* Pods-MSRequestFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
